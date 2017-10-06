@@ -1,0 +1,145 @@
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#imageContainer {
+    border: 5px ridge #21f5f5;
+    height: 100%;
+    width: 40%;
+    margin: 0 5px;
+}
+
+#colorBoxes {
+    height: 100%;
+    width: 50%;
+}
+
+body {
+    /*background-color: rgba(32, 178, 170, 0.3);*/
+    background: #ADA996;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-fluid {
+    text-align: center;
+    margin-left: 25%;
+}
+
+#instructions {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.modal {
+    padding: 40px;
+    font-size: 30px;
+}
+
+img {
+    width: 150px;
+    margin: 10px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+
+#redImages {
+    border: 5px solid red;
+}
+
+.matchingBox {
+    height: 100px;
+    width: 150px;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+#blueImages {
+    border: 5px solid blue;
+}
+
+#yellowImages {
+    border: 5px solid yellow;
+}
+
+#greenImages {
+    border: 5px solid green;
+}
+
+#orangeImages {
+    border: 5px solid orange;
+}
+
+#boxRow1 {
+    margin-left: 100px;
+}
+
+#boxRow2 {
+    margin-left: 100px;
+}
+
+#boxRow3 {
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    #title {
+        font-size: 25px;
+    }
+
+    .container-fluid {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #imageContainer {
+        height: 100%;
+        max-height: 500px;
+        width: 40%;
+        /*border: 0;*/
+    }
+
+    #matchBox {
+        max-height: 500px;
+        height: 100%;
+        width: 40%;
+    }
+
+    img {
+        width: 115px;
+        margin: 5px;
+        height: 60px;
+        position: relative;
+        display: inline-block;
+        float: left;
+    }
+
+   
+    .matchingBox {
+        width: 115px;
+        height: 60px;
+    }
+
+    #boxRow1 {
+        margin-left: 50px;
+    }
+
+    #boxRow2 {
+        margin-left: 50px;
+    }
+
+    #boxRow3 {
+        margin-left: 50px;
+    }
+};

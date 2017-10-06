@@ -1,0 +1,28 @@
+body, .panel {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cheekyMonkeyImage.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1, h4, span {
+	margin: 25px 15px;
+	color: white;
+	text-shadow: 1.5px 1.5px yellow;
+}
+
+#goToLoginPageButton,
+#signOutButton {
+	margin: 15px;
+	float: right;
+	color: white;
+	background-color: black;
+
+}
+
+.btn-large {
+	margin-top: 2px;
+}
+
+label {
+	margin-top: 2px;
+	color: white;
+}
